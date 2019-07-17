@@ -1,22 +1,36 @@
-var dog =true;
+/*var dog =true;
 var cat =true;
 
-alert("Which pet should you get?")
+alert("Which pet should you get?");
 var a= prompt("i want : ")
 if(a==="dog"){
-    return "the dog is the one"
+    alert("the dog is the one")
 }
 else if(a==="cat"){
-  return  "the cat is the one"
+  alert("the cat is the one")
 }
 else if(a==="cat,dog"){
-   return "both"
+   alert("both")
 }
 else{
-    return "neither of those"
+    alert("neither of those")
 }
-
-
-
-
-
+*/
+var score= true;
+alert("which marks do you have");
+var dc =prompt("i have: ");
+if(dc >= 80 && dc<=100){
+  alert("A")
+}
+else if(dc>=60 && dc<=79){
+  alert("B")
+}
+else if(dc>=40 && dc<=59){
+  alert("C");
+}
+else if( dc>=20 && dc<=39){
+  alert("D");
+}
+else{
+  alert("E");
+}
