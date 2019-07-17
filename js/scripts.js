@@ -1,20 +1,21 @@
 var dog =true;
 var cat =true;
+
 alert("Which pet should you get?")
-if("dog"){
-    console.log("the dog is the one")
+var a= prompt("i want : ")
+if(a==="dog"){
+    return "the dog is the one"
 }
-else if("cat"){
-    console.log("the cat is the one")
+else if(a==="cat"){
+  return  "the cat is the one"
 }
-else if("cat,dog"){
-    console.log("both")
+else if(a==="cat,dog"){
+   return "both"
 }
 else{
-    console.log("neither of those")
+    return "neither of those"
 }
-dog;
-cat;
+
 
 
 
