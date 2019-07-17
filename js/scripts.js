@@ -16,7 +16,7 @@ else{
     alert("neither of those")
 }
 */
-var score= true;
+/*var score= true;
 alert("which marks do you have");
 var dc =prompt("i have: ");
 if(dc >= 80 && dc<=100){
@@ -33,4 +33,16 @@ else if( dc>=20 && dc<=39){
 }
 else{
   alert("E");
+}*/
+var burger=true;
+var no=true;
+alert("What food would you like to be served?");
+var noe=prompt("i need: ");
+if(noe= burger){
+  alert("Here is some burger for you. Anything else?");
+
+  alert("Thanks you for choosing us");
+}
+else{
+  alert("thank you")
 }
